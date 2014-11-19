@@ -138,10 +138,11 @@ slides > slide {
       position: absolute;
       bottom: $slide-top-bottom-padding / 2;
       left: $slide-left-right-padding;
-      background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
-      @include background-size($brand-small-icon-size $brand-small-icon-size);
+      background: url(../../images/ips_logo_128.png) no-repeat 0 50%;
+      @include background-size(100px);
       padding-left: $brand-small-icon-size + 10;
       height: $brand-small-icon-size;
+      width: 100px;
       line-height: 1.9;
     }
     &:after {
@@ -281,7 +282,7 @@ h2 {
   font-size: 45px;
   line-height: 45px;
   letter-spacing: -2px;
-  color: $gray-4;
+  color: $navy;
 }
 
 h3 {
@@ -312,10 +313,11 @@ ul {
   }
 
   > li:before {
-    content: '\00B7';
+    content: "•";
     margin-left: -1em;
     position: absolute;
     font-weight: 600;
+    color: $navy;
   }
 
   ul {
@@ -488,7 +490,7 @@ table {
   th {
     color: white;
     font-size: 18px;
-    @include background(linear-gradient(top, $brand-blue 40%, $brand-blue-secondary2 80%) no-repeat);
+    @include background(linear-gradient(top, $navy 60%, $navy-1 100%) no-repeat);
   }
 
   td, th {
@@ -799,12 +801,6 @@ article.smaller {
 }
 
 /* ===== SLIDE CONTENT ===== */
-.logoslide {
-  img {
-    width: 383px;
-    height: 92px;
-  }
-}
 
 .segue {
   padding: $slide-left-right-padding $slide-left-right-padding * 2;
@@ -875,11 +871,10 @@ aside.gdbar {
   }
 
   img {
-    width: 85px;
-    height: 85px;
+    height: 70px;
     position: absolute;
     right: 0;
-    margin: 8px 15px;
+    margin: 13px 0 0 0;
   }
 }
 
@@ -892,12 +887,12 @@ aside.gdbar {
       font-size: 65px;
       line-height: 1.4;
       letter-spacing: -3px;
-      color: $gray-4;
+      color: $navy;
     }
 
     h2 {
       font-size: 34px;
-      color: $gray-2;
+      color: $navy;
       font-weight: inherit;
     }
 

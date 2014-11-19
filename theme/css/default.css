@@ -243,7 +243,7 @@ slides > slide {
   display: none;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 26px;
-  color: #797979;
+  color: #333;
   width: 900px;
   height: 700px;
   margin-left: -450px;
@@ -305,13 +305,14 @@ slides > slide:not(.nobackground):before {
   position: absolute;
   bottom: 20px;
   left: 60px;
-  background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
-  -webkit-background-size: 30px 30px;
-  -moz-background-size: 30px 30px;
-  -o-background-size: 30px 30px;
-  background-size: 30px 30px;
+  background: url(../../images/ips_logo_128.png) no-repeat 0 50%;
+  -webkit-background-size: 100px;
+  -moz-background-size: 100px;
+  -o-background-size: 100px;
+  background-size: 100px;
   padding-left: 40px;
   height: 30px;
+  width: 100px;
   line-height: 1.9;
 }
 /* line 147, ../scss/default.scss */
@@ -467,7 +468,7 @@ h2 {
   font-size: 45px;
   line-height: 45px;
   letter-spacing: -2px;
-  color: #515151;
+  color: #00427a;
 }
 
 /* line 287, ../scss/default.scss */
@@ -501,10 +502,11 @@ ul li ul li:before {
 }
 /* line 314, ../scss/default.scss */
 ul > li:before {
-  content: '\00B7';
+  content: "•";
   margin-left: -1em;
   position: absolute;
   font-weight: 600;
+  color: #00427a;
 }
 /* line 321, ../scss/default.scss */
 ul ul {
@@ -746,11 +748,11 @@ table tr:nth-child(odd) {
 table th {
   color: white;
   font-size: 18px;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, #4387fd), color-stop(80%, #2a7cdf)) no-repeat;
-  background: -webkit-linear-gradient(top, #4387fd 40%, #2a7cdf 80%) no-repeat;
-  background: -moz-linear-gradient(top, #4387fd 40%, #2a7cdf 80%) no-repeat;
-  background: -o-linear-gradient(top, #4387fd 40%, #2a7cdf 80%) no-repeat;
-  background: linear-gradient(top, #4387fd 40%, #2a7cdf 80%) no-repeat;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #00427a), color-stop(100%, #000066)) no-repeat;
+  background: -webkit-linear-gradient(top, #00427a 60%, #000066 100%) no-repeat;
+  background: -moz-linear-gradient(top, #00427a 60%, #000066 100%) no-repeat;
+  background: -o-linear-gradient(top, #00427a 60%, #000066 100%) no-repeat;
+  background: linear-gradient(top, #00427a 60%, #000066 100%) no-repeat;
 }
 /* line 494, ../scss/default.scss */
 table td, table th {
@@ -1208,13 +1210,6 @@ article.smaller q:before, article.smaller q:after {
   margin-left: 450px;
 }
 
-/* ===== SLIDE CONTENT ===== */
-/* line 803, ../scss/default.scss */
-.logoslide img {
-  width: 383px;
-  height: 92px;
-}
-
 /* line 809, ../scss/default.scss */
 .segue {
   padding: 60px 120px;
@@ -1315,11 +1310,10 @@ aside.gdbar.bottom {
 }
 /* line 877, ../scss/default.scss */
 aside.gdbar img {
-  width: 85px;
-  height: 85px;
+  height: 70px;
   position: absolute;
   right: 0;
-  margin: 8px 15px;
+  margin: 13px 13px 0 0;
 }
 
 /* line 888, ../scss/default.scss */
@@ -1331,12 +1325,12 @@ aside.gdbar img {
   font-size: 65px;
   line-height: 1.4;
   letter-spacing: -3px;
-  color: #515151;
+  color: #00427a;
 }
 /* line 898, ../scss/default.scss */
 .title-slide hgroup h2 {
   font-size: 34px;
-  color: darkgrey;
+  color: #00427a;
   font-weight: inherit;
 }
 /* line 904, ../scss/default.scss */
