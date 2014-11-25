@@ -1422,6 +1422,26 @@ aside.gdbar img {
   display: none;
 }
 
+div.annotate {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px 0 20px 60px;
+  margin-bottom: 20px;
+  width: 106%;
+  background-color: #e6e6e6;
+  left: -60px;
+  position: relative;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  -ms-border-radius: 0 10px 10px 0;
+  -o-border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*overflow: hidden;*/
+}
+
 @media print {
   /* line 978, ../scss/default.scss */
   slides slide {
